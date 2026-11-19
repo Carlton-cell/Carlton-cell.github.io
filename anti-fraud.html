@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#0d1514">
+  <title>AI 智慧反诈态势感知平台 · 2025级硕士4班</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/site.css">
+  <link rel="stylesheet" href="/css/anti-fraud.css">
+</head>
+<body class="af-body">
+  <nav class="nav nav-dark">
+    <a href="/" class="nav-brand">
+      <img src="/assets/banhui-small.png" alt="班徽" class="nav-emblem">
+      <span>AI 智慧反诈平台</span>
+    </a>
+    <div class="nav-links">
+      <a href="/">官网首页</a>
+      <a href="/quiz.html?set=fraud" class="nav-cta nav-cta-dark">防诈答题</a>
+    </div>
+  </nav>
+
+  <header class="af-hero">
+    <div class="af-pulse"></div>
+    <p class="af-eyebrow">AI FRAUD SITUATION AWARENESS</p>
+    <h1 class="af-title">智慧反诈·态势感知平台</h1>
+    <p class="af-sub">全域监测 · 智能研判 · 精准预警</p>
+    <div class="af-meta"><span id="afUpdated">数据加载中…</span><span class="af-meta-dot"></span><span>公开情报源 12 个</span></div>
+  </header>
+
+  <section class="af-section">
+    <h2 class="af-h2">态势感知仪表盘</h2>
+    <div class="af-kpis" id="afKpis"></div>
+
+    <div class="af-panel">
+      <div class="af-panel-title">近30天诈骗手法分布 <span class="af-tag">AI 聚类分析</span></div>
+      <div class="af-donut-wrap">
+        <div class="af-donut" id="afDonut"><div class="af-donut-center"><b id="afDonutNum">8</b><i>类手法</i></div></div>
+        <div class="af-legend" id="afLegend"></div>
+      </div>
+    </div>
+
+    <div class="af-panel">
+      <div class="af-panel-title">班级防诈免疫力体检 <span class="af-tag af-tag-green">真实答题数据</span></div>
+      <div id="afImmunity" class="af-immunity">统计加载中…</div>
+    </div>
+  </section>
+
+  <section class="af-section">
+    <div class="af-forecast">
+      <div class="af-fc-head">
+        <span class="af-fc-live"><i></i>预警生效中</span>
+        <span class="af-fc-window" id="fcWindow">预测窗口加载中</span>
+      </div>
+      <h2 class="af-fc-title">下一轮高发手法预测</h2>
+      <p class="af-fc-sub">AI FORECAST ENGINE · 回溯近三年同期警情 · 周期规律建模</p>
+      <div class="af-fc-list" id="fcList"></div>
+    </div>
+  </section>
+  <section class="af-section">
+    <h2 class="af-h2">AI 涉诈情报公示</h2>
+    <p class="af-h2sub">以下内容由 AI 情报引擎从公开报道中自动抓取并总结，供全班学习参考</p>
+    <div class="af-intel" id="afIntel"></div>
+  </section>
+
+  <section class="af-cta">
+    <h2>防诈专项知识竞赛</h2>
+    <p>基于本月最新诈骗手法命题 · 共 20 题 · 即时判分排名</p>
+    <a href="/quiz.html?set=fraud" class="af-btn">进入专项答题</a>
+    <a href="/leaderboard.html?set=fraud" class="af-btn af-btn-ghost">专项排行榜</a>
+  </section>
+
+  <footer class="af-footer">
+    <p>中南大学湘雅二医院 2025级硕士4班 · AI 智慧反诈平台</p>
+    <p class="af-footer-sub">全民反诈 · 你我同行 · 反诈专线 96110</p>
+  </footer>
+
+  <script src="/js/anti-fraud.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/* 时政学习平台 - 红金主题（复用防诈平台深色框架） */
+.pf-body { background: #141010; }
+.pf-nav { background: rgba(20,16,16,.85); border-bottom: 1px solid #2b1f1d; }
+.pf-nav .nav-brand { color: #f2e8e6; }
+.pf-nav .nav-links a { color: #b3a09d; }
+.pf-nav .nav-cta { background: linear-gradient(135deg, #C9302C, #E05A4E); }
+
+.pf-hero { background: radial-gradient(120% 100% at 50% 0%, rgba(224,90,78,.18) 0%, transparent 60%); }
+.pf-pulse { border-color: rgba(224,90,78,.25); }
+.pf-eyebrow { color: #d97a6c; }
+.pf-hero .af-title {
+  background: linear-gradient(120deg, #f0b8a8 0%, #E05A4E 55%, #C9302C 100%);
+  -webkit-background-clip: text; background-clip: text;
+  -webkit-text-fill-color: transparent; color: #E05A4E;
+}
+
+.news-card { background: rgba(255,255,255,.04); border: 1px solid rgba(224,90,78,.22);
+  border-radius: 18px; padding: 16px; margin-top: 12px; animation: afFade .6s ease both; }
+.news-card:nth-child(3) { animation-delay: .1s; }
+.news-chip { display: inline-block; font-size: 10px; color: #E8A33D;
+  background: rgba(232,163,61,.14); padding: 2px 9px; border-radius: 999px; letter-spacing: 1px; }
+.news-live { color: #ff9d8a; background: rgba(224,90,78,.18); }
+.news-live i { width: 6px; height: 6px; border-radius: 50%; background: #E05A4E;
+  display: inline-block; margin-right: 2px; animation: fcBlink 1.4s ease-in-out infinite; }
+.news-card h3 { font-size: 16px; color: #fff; margin: 12px 0 8px; }
+.news-card p { font-size: 13px; color: #a99b98; line-height: 1.75; margin: 0; }
+
+.pf-cta { background: linear-gradient(135deg, #8f2f26 0%, #C9302C 50%, #E05A4E 100%);
+  box-shadow: 0 10px 30px rgba(201,48,44,.28); }
+.pf-cta .af-btn { color: #8f2f26; }
+.pf-live { color: #ff9d8a; display: inline-flex; align-items: center; gap: 6px; }
+.pf-live i { width: 7px; height: 7px; border-radius: 50%; background: #E05A4E;
+  animation: fcBlink 1.4s ease-in-out infinite; }

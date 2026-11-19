@@ -1,0 +1,34 @@
+/* 管理后台样式 */
+.ad-gate { display: flex; flex-direction: column; gap: 12px; }
+.ad-gate input {
+  background: rgba(255,255,255,.06); border: 1px solid rgba(127,208,197,.3);
+  border-radius: 999px; padding: 12px 18px; color: #e8f1ef; font-size: 14px; outline: none;
+  text-align: center;
+}
+.ad-gate input:focus { border-color: #5cc8be; }
+.ad-btn {
+  background: linear-gradient(135deg, #2e8c86, #44aca6); color: #fff;
+  border: none; border-radius: 999px; padding: 11px 20px;
+  font-size: 13px; font-weight: 700; cursor: pointer;
+}
+.ad-btn-sm { padding: 6px 14px; font-size: 11px; margin-left: auto; }
+.ad-err { color: #f0a58a; font-size: 12px; margin: 0; min-height: 16px; }
+.ad-tabs { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+.ad-tab {
+  background: rgba(255,255,255,.06); color: #a9bdbb;
+  border: 1px solid rgba(255,255,255,.1); border-radius: 999px;
+  padding: 8px 18px; font-size: 13px; cursor: pointer;
+}
+.ad-tab.active { background: linear-gradient(135deg, #2e8c86, #44aca6); color: #fff; border-color: transparent; }
+.ad-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.ad-table th { text-align: left; color: #6e8a86; font-weight: 600; padding: 8px 6px; border-bottom: 1px solid rgba(255,255,255,.1); }
+.ad-table td { padding: 9px 6px; color: #e8f1ef; border-bottom: 1px solid rgba(255,255,255,.05); }
+.ad-table tr:hover td { background: rgba(255,255,255,.03); }
+.ad-del {
+  background: none; border: 1px solid rgba(224,123,84,.4); color: #f0a58a;
+  border-radius: 999px; padding: 4px 12px; font-size: 11px; cursor: pointer;
+}
+.ad-del:hover { background: rgba(224,123,84,.12); }
+.ad-empty { color: #6e8a86; font-size: 13px; text-align: center; padding: 24px 0; }
+.ad-dm-text { color: #cfe0de; }
+.ad-dm-time { color: #5f7471; font-size: 11px; }

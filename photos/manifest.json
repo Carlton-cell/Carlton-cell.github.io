@@ -1,0 +1,26 @@
+﻿[
+    {
+        "total":  41,
+        "title":  "1+1互助看望退休老师",
+        "count":  8,
+        "slug":  "visit"
+    },
+    {
+        "total":  8,
+        "title":  "党课学习",
+        "count":  8,
+        "slug":  "party"
+    },
+    {
+        "total":  3,
+        "title":  "师生杯篮球比赛",
+        "count":  3,
+        "slug":  "basketball"
+    },
+    {
+        "total":  6,
+        "title":  "院研究生代表大会",
+        "count":  6,
+        "slug":  "congress"
+    }
+]
